@@ -1,8 +1,6 @@
 namespace: prod
-
 image:
   tag: 237a933
-
 ingress:
   enabled: true
   hosts:
@@ -10,3 +8,5 @@ ingress:
       paths:
         - path: /
           pathType: Prefix
+images:
+  - tag: 3e2f361
