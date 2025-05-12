@@ -1,0 +1,12 @@
+namespace: prod
+
+image:
+  tag: 237a933
+
+ingress:
+  enabled: true
+  hosts:
+    - host: chart-prod.local
+      paths:
+        - path: /
+          pathType: Prefix
