@@ -1,0 +1,7 @@
+namespace: nonprod
+
+image:
+  tag: 237a933
+
+ingress:
+  enabled: true
