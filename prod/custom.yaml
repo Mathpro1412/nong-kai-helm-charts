@@ -8,3 +8,5 @@ ingress:
       paths:
         - path: /
           pathType: Prefix
+images:
+  tag: a70511f
