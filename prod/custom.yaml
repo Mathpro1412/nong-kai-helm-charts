@@ -1,6 +1,6 @@
 namespace: prod
 image:
-  tag: b99e35b
+  tag: 704d435
 ingress:
   enabled: true
   hosts:
